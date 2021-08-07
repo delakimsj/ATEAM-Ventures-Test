@@ -1,0 +1,27 @@
+{
+  "name": "backend-coding-test",
+  "version": "1.0.0",
+  "description": "## About this task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch . app.js -e js, json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATEAM-Ventures-Co-Ltd/backend-coding-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATEAM-Ventures-Co-Ltd/backend-coding-test/issues"
+  },
+  "homepage": "https://github.com/ATEAM-Ventures-Co-Ltd/backend-coding-test#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "geolib": "^3.3.1",
+    "node-postcodes.io": "^1.0.3",
+    "nodemon": "^2.0.12"
+  }
+}
